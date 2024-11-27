@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/WorldClock/.vs/WorldClock/v17
+/WorldClock/.vs/WorldClock/FileContentIndex
+/WorldClock/WorldClockWithEvents.ClassLib/obj
+/WorldClock/WorldClockWithEvents.ConApp/obj
+/WorldClock/WorldClockWithInterfaces.ClassLib/obj
+/WorldClock/WorldClockWithInterfaces.ConApp/obj
+/WorldClock/WorldClockWithEvents.ConApp/bin/Debug/net8.0
+/WorldClock/WorldClockWithInterfaces.ClassLib/bin/Debug/net8.0
+/WorldClock/WorldClockWithInterfaces.ConApp/bin/Debug/net8.0
