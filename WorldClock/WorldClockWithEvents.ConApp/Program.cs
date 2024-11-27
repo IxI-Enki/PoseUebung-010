@@ -1,10 +1,15 @@
-﻿namespace WorldClockWithEvents.ConApp
+﻿using WorldClockWithEvents.ClassLib;
+
+namespace WorldClockWithEvents.ConApp;
+
+internal class Program
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+  static void Main()
+  {
+    Console.WriteLine(" WORLDCLOCK ");
+
+    WorlClockWithEvents.Instance.Observers += (s , e) => Console.WriteLine("Test - Ausgabe");
+
+    Console.ReadLine();
+  }
 }
