@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "With_Interfaces", "With_Interfaces", "{15DBD2C1-A102-41A1-89A8-31EBE9476E00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "With_Events", "With_Events", "{D6A97E79-2CC0-4BC0-A6D6-D2C662846AED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConApp", "ConApp", "{F5698C20-A0F6-40BC-9047-C2C338544D38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLib", "ClassLib", "{9483CEF5-789C-45C2-84D6-F62A9C181E0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConApp", "ConApp", "{47616BA1-86D3-4F6C-A772-064490ECB6FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLib", "ClassLib", "{99F8DBA6-03E1-43A3-88D4-177E9522AE18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldClockWithEvents.ConApp", "WorldClockWithEvents.ConApp\WorldClockWithEvents.ConApp.csproj", "{A00BA2C1-D36B-43F4-88D1-24979BF3AC63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldClockWithEvents.ClassLib", "WorldClockWithEvents.ClassLib\WorldClockWithEvents.ClassLib.csproj", "{836A3B17-9A01-45B7-AA79-81728DF9C26D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldClockWithInterfaces.ConApp", "WorldClockWithInterfaces.ConApp\WorldClockWithInterfaces.ConApp.csproj", "{DE537971-D5D2-4964-8C7A-5A2F12152BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorldClockWithInterfaces.ClassLib", "WorldClockWithInterfaces.ClassLib\WorldClockWithInterfaces.ClassLib.csproj", "{12523D4D-28AD-49A1-9E1D-B2D53F92261C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A00BA2C1-D36B-43F4-88D1-24979BF3AC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A00BA2C1-D36B-43F4-88D1-24979BF3AC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A00BA2C1-D36B-43F4-88D1-24979BF3AC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A00BA2C1-D36B-43F4-88D1-24979BF3AC63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{836A3B17-9A01-45B7-AA79-81728DF9C26D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{836A3B17-9A01-45B7-AA79-81728DF9C26D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{836A3B17-9A01-45B7-AA79-81728DF9C26D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{836A3B17-9A01-45B7-AA79-81728DF9C26D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE537971-D5D2-4964-8C7A-5A2F12152BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE537971-D5D2-4964-8C7A-5A2F12152BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE537971-D5D2-4964-8C7A-5A2F12152BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE537971-D5D2-4964-8C7A-5A2F12152BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12523D4D-28AD-49A1-9E1D-B2D53F92261C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12523D4D-28AD-49A1-9E1D-B2D53F92261C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12523D4D-28AD-49A1-9E1D-B2D53F92261C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12523D4D-28AD-49A1-9E1D-B2D53F92261C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5698C20-A0F6-40BC-9047-C2C338544D38} = {D6A97E79-2CC0-4BC0-A6D6-D2C662846AED}
+		{9483CEF5-789C-45C2-84D6-F62A9C181E0B} = {D6A97E79-2CC0-4BC0-A6D6-D2C662846AED}
+		{47616BA1-86D3-4F6C-A772-064490ECB6FE} = {15DBD2C1-A102-41A1-89A8-31EBE9476E00}
+		{99F8DBA6-03E1-43A3-88D4-177E9522AE18} = {15DBD2C1-A102-41A1-89A8-31EBE9476E00}
+		{A00BA2C1-D36B-43F4-88D1-24979BF3AC63} = {F5698C20-A0F6-40BC-9047-C2C338544D38}
+		{836A3B17-9A01-45B7-AA79-81728DF9C26D} = {9483CEF5-789C-45C2-84D6-F62A9C181E0B}
+		{DE537971-D5D2-4964-8C7A-5A2F12152BB6} = {47616BA1-86D3-4F6C-A772-064490ECB6FE}
+		{12523D4D-28AD-49A1-9E1D-B2D53F92261C} = {99F8DBA6-03E1-43A3-88D4-177E9522AE18}
+	EndGlobalSection
+EndGlobal
